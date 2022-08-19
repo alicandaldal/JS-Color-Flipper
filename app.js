@@ -22,7 +22,7 @@ btn.addEventListener("click",function(){
 })
 
 copyBtn.addEventListener("click",function(){
-    var copyText = document.getElementById("myHex");
+    var copyText = document.getElementById("myHex");s
     copyText.select();
     copyText.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(copyText.value);
