@@ -19,18 +19,9 @@ btn.addEventListener("click",function(){
 })
 
 copyBtn.addEventListener("click",function(){
-<<<<<<< HEAD
-    var copyText = document.getElementById("myHex");s
-    copyText.select();
-    copyText.setSelectionRange(0, 99999);
-    navigator.clipboard.writeText(copyText.value);
-    alert("Copied the color: " + copyText.value);
-  });
-=======
     input.type = 'text';
     input.select();
     document.execCommand("copy");
     input.type = 'hidden';
     alert("Copied the color: " + input.value);
 });
->>>>>>> fda6e67654ff40446416829b77ac1246552a16ef
